@@ -3,8 +3,10 @@
     "module": "commonjs",
     "target": "es5",
     "noImplicitAny": false,
-    "sourceMap": false,
-    "strictNullChecks": true
+    "sourceMap": false
+    // "strictNullChecks": true, //uniemożliwia automatyczne przypisywanie null
+    // "noEmitOnError": true // uniemożliwia kompilacjina js przy error
+    // "noUnusedParameters": true // wszystkie poarametry muszą być uzupełnione 
   },
   "exclude": [
     "node_modules"
