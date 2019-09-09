@@ -117,3 +117,16 @@ let finaleValue = 30;
 if (typeof finaleValue == "number") {
   console.log("fianle value is a number");
 }
+
+// never
+function neverReturn(): never {
+  throw new Error("An Error!");
+}
+
+// nullable types
+let canBeNull: number | null = 12;
+canBeNull = null;
+let canAlsoBeNull;
+canAlsoBeNull = null;
+let canThisBeNull = null;
+// canThisBeNull = 12;

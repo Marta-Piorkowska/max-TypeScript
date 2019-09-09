@@ -98,3 +98,14 @@ var finaleValue = 30;
 if (typeof finaleValue == "number") {
     console.log("fianle value is a number");
 }
+// never
+function neverReturn() {
+    throw new Error("An Error!");
+}
+// nullable types
+var canBeNull = 12;
+canBeNull = null;
+var canAlsoBeNull;
+canAlsoBeNull = null;
+var canThisBeNull = null;
+// canThisBeNull = 12;
