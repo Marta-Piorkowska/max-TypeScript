@@ -52,7 +52,7 @@ var rectangle = new Rectangle();
 rectangle.length = 10;
 rectangle.width = 1.5;
 console.log(rectangle.calcSize());
-// // Exercise 3 - Make sure to compile to ES5 (set the target in tsconfig.json)
+// // Exercise 3
 var Person4 = /** @class */ (function () {
     function Person4() {
         this._firstName = "nic";

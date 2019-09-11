@@ -41,7 +41,7 @@ rectangle.length = 10;
 rectangle.width = 1.5;
 console.log(rectangle.calcSize());
 
-// // Exercise 3 - Make sure to compile to ES5 (set the target in tsconfig.json)
+// // Exercise 3
 class Person4 {
   _firstName: string = "nic";
   enumerable: boolean = true;
