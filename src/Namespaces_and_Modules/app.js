@@ -20,7 +20,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(CirlceMath.calculateCircumference(10));
 // console.log(MyMath.calculateRectangle(5, 10));
 // console.log(PI);
-// console.log("--------------------------------");
 //Modules
 var circle_1 = require("./math/circle");
 var rectangle_1 = require("./math/rectangle");
