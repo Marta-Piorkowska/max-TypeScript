@@ -44,7 +44,7 @@ myPerson6.greet(myPerson6.lastName);
 // Interfaces and Function Types
 
 interface DoubleValueFunc {
-  (number1: number, number2: number): number:
+  (number1: number, number2: number): number;
 }
 
 let myDoubleValueFunction: DoubleValueFunc;
